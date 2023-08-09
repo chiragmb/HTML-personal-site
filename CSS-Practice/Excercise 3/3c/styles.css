@@ -1,0 +1,18 @@
+.signup-button{
+    background-color: rgb(46,164,79);
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.15;
+}
+
+.signup-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,23 @@
+.website-name,.description,.twitter-link,.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.website-name{
+    margin-bottom: 3px;
+}
+.description{
+    margin-top: 2px;
+}
+
+.website-name{
+    font-weight: bold;
+}
+.twitter-link{
+    color: rgb(189, 189, 189);
+    font-weight: normal;
+}
+
+.link{
+    color: rgb(68, 68, 255);
+    cursor: pointer;
+}

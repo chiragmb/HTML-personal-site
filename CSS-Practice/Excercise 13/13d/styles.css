@@ -1,0 +1,22 @@
+.height{
+    height: 3000px;
+}
+.header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+}
+.box{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;
+}
+.box2{
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: static;
+}

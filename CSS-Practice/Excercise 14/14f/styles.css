@@ -1,0 +1,58 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+}
+.image{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.info{
+    width: 105px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: white;
+    background-color: rgb(54, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: center;
+
+}
+.content{
+    color: rgb(145, 144, 144);
+    padding-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.info-heading{
+    font-size: 12px;
+    font-weight: bold;
+}
+.more-button{
+    padding-left: 55px;
+    display: inline;
+    font-size: 20px;
+    color: lightgray;
+    cursor: pointer;
+}
+.profiles{
+    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+    padding-left: 10px;
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
